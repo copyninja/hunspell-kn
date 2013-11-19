@@ -6,4 +6,4 @@ dictfile: wordlist/kn-wordlist.txt
 	touch "$@"
 
 distribute: dictfile
-	tar -cvf hunspell-kn_$(VERSION).tar.gz kn_IN.* COPYING
+	tar -cvf hunspell-kn_$(VERSION).tar.gz kn_IN.* COPYING Copyright
